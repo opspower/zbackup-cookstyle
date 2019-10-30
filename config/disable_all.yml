@@ -1,4 +1,6 @@
 ---
+Migration/DepartmentName:
+  Enabled: false
 Bundler/DuplicatedGem:
   Enabled: false
 Bundler/GemComment:
@@ -303,6 +305,8 @@ Lint/SafeNavigationWithEmpty:
   Enabled: false
 Lint/ScriptPermission:
   Enabled: false
+Lint/SendWithMixinArgument:
+  Enabled: false
 Lint/ShadowedArgument:
   Enabled: false
 Lint/ShadowedException:
@@ -465,6 +469,8 @@ Style/DocumentationMethod:
   Enabled: false
 Style/Documentation:
   Enabled: false
+Style/DoubleCopDisableDirective:
+  Enabled: false
 Style/DoubleNegation:
   Enabled: false
 Style/EachForSimpleLoop:
@@ -568,6 +574,8 @@ Style/MultilineMethodSignature:
 Style/MultilineMemoization:
   Enabled: false
 Style/MultilineTernaryOperator:
+  Enabled: false
+Style/MultilineWhenThen:
   Enabled: false
 Style/MultipleComparison:
   Enabled: false
@@ -746,4 +754,234 @@ Security/MarshalLoad:
 Security/Open:
   Enabled: false
 Security/YAMLLoad:
+  Enabled: false
+ChefModernize/LibarchiveFileResource:
+  Enabled: false
+ChefModernize/IncludingWindowsDefaultRecipe:
+  Enabled: false
+ChefModernize/RespondToProvides:
+  Enabled: false
+ChefModernize/UnnecessaryDependsChef14:
+  Enabled: false
+ChefModernize/DefaultActionFromInitialize:
+  Enabled: false
+ChefModernize/RespondToInMetadata:
+  Enabled: false
+ChefModernize/ShellOutToChocolatey:
+  Enabled: false
+ChefModernize/IncludingAptDefaultRecipe:
+  Enabled: false
+ChefModernize/SysctlParamResource:
+  Enabled: false
+ChefModernize/SetOrReturnInResources:
+  Enabled: false
+ChefModernize/OpensslRsaKeyResource:
+  Enabled: false
+ChefModernize/ExecuteAptUpdate:
+  Enabled: false
+ChefModernize/RespondToResourceName:
+  Enabled: false
+ChefModernize/CustomResourceWithAllowedActions:
+  Enabled: false
+ChefModernize/UseBuildEssentialResource:
+  Enabled: false
+ChefModernize/UsesZypperRepo:
+  Enabled: false
+ChefModernize/DefinesChefSpecMatchers:
+  Enabled: false
+ChefModernize/IncludingMixinShelloutInResources:
+  Enabled: false
+ChefModernize/PowerShellGuardInterpreter:
+  Enabled: false
+ChefModernize/OpensslX509Resource:
+  Enabled: false
+ChefModernize/ResourceNameFromInitialize:
+  Enabled: false
+ChefModernize/MinitestHandlerUsage:
+  Enabled: false
+ChefModernize/PowershellInstallWindowsFeature:
+  Enabled: false
+ChefModernize/OsxConfigProfileResource:
+  Enabled: false
+ChefModernize/WhyRunSupportedTrue:
+  Enabled: false
+ChefModernize/CronManageResource:
+  Enabled: false
+ChefModernize/PowershellScriptExpandArchive:
+  Enabled: false
+ChefModernize/ExecuteTzUtil:
+  Enabled: false
+ChefModernize/Definitions:
+  Enabled: false
+ChefModernize/WindowsVersionHelper:
+  Enabled: false
+ChefModernize/SevenZipArchiveResource:
+  Enabled: false
+ChefModernize/CustomResourceWithAttributes:
+  Enabled: false
+ChefModernize/PowershellInstallPackage:
+  Enabled: false
+ChefModernize/DependsOnZypperCookbook:
+  Enabled: false
+ChefModernize/LegacyBerksfileSource:
+  Enabled: false
+ChefModernize/WindowsZipfileUsage:
+  Enabled: false
+ChefModernize/MacOsXUserdefaults:
+  Enabled: false
+ChefStyle/UsePlatformHelpers:
+  Enabled: false
+ChefStyle/CommentSentenceSpacing:
+  Enabled: false
+ChefStyle/FileMode:
+  Enabled: false
+ChefStyle/AttributeKeys:
+  Enabled: false
+ChefStyle/SimplifyPlatformMajorVersionCheck:
+  Enabled: false
+ChefStyle/CopyrightCommentFormat:
+  Enabled: false
+ChefStyle/CommentFormat:
+  Enabled: false
+ChefEffortless/CookbookUsesEnvironmments:
+  Enabled: false
+ChefEffortless/CookbookUsesDatabags:
+  Enabled: false
+ChefEffortless/CookbookUsesSearch:
+  Enabled: false
+ChefEffortless/CookbookUsesRoles:
+  Enabled: false
+ChefEffortless/CookbookUsesPolicygroups:
+  Enabled: false
+ChefDeprecations/UsesChefRESTHelpers:
+  Enabled: false
+ChefDeprecations/VerifyPropertyUsesFileExpansion:
+  Enabled: false
+ChefDeprecations/CookbookDependsOnPartialSearch:
+  Enabled: false
+ChefDeprecations/IncludingXMLRubyRecipe:
+  Enabled: false
+ChefDeprecations/ResourceUsesDslNameMethod:
+  Enabled: false
+ChefDeprecations/ConflictsMetadata:
+  Enabled: false
+ChefDeprecations/ChocolateyPackageUninstallAction:
+  Enabled: false
+ChefDeprecations/NodeMethodsInsteadofAttributes:
+  Enabled: false
+ChefDeprecations/DeprecatedYumRepositoryProperties:
+  Enabled: false
+ChefDeprecations/ChefSpecCoverageReport:
+  Enabled: false
+ChefDeprecations/ResourceUsesProviderBaseMethod:
+  Enabled: false
+ChefDeprecations/ChefHandlerUsesSupports:
+  Enabled: false
+ChefDeprecations/LocaleDeprecatedLcAllProperty:
+  Enabled: false
+ChefDeprecations/ResourceOverridesProvidesMethod:
+  Enabled: false
+ChefDeprecations/IncludingYumDNFCompatRecipe:
+  Enabled: false
+ChefDeprecations/NodeSetUnless:
+  Enabled: false
+ChefDeprecations/RequireRecipe:
+  Enabled: false
+ChefDeprecations/RecipeMetadata:
+  Enabled: false
+ChefDeprecations/AttributeMetadata:
+  Enabled: false
+ChefDeprecations/CookbookDependsOnPoise:
+  Enabled: false
+ChefDeprecations/NodeSet:
+  Enabled: false
+ChefDeprecations/ErlCallResource:
+  Enabled: false
+ChefDeprecations/EOLAuditModeUsage:
+  Enabled: false
+ChefDeprecations/EpicFail:
+  Enabled: false
+ChefDeprecations/LegacyYumCookbookRecipes:
+  Enabled: false
+ChefDeprecations/UserDeprecatedSupportsProperty:
+  Enabled: false
+ChefDeprecations/CookbookDependsOnCompatResource:
+  Enabled: false
+ChefDeprecations/ChefSpecLegacyRunner:
+  Enabled: false
+ChefDeprecations/LaunchdDeprecatedHashProperty:
+  Enabled: false
+ChefDeprecations/ResourceInheritsFromCompatResource:
+  Enabled: false
+ChefDeprecations/UseInlineResourcesDefined:
+  Enabled: false
+ChefDeprecations/EasyInstallResource:
+  Enabled: false
+ChefDeprecations/UsesDeprecatedMixins:
+  Enabled: false
+ChefDeprecations/WindowsTaskChangeAction:
+  Enabled: false
+ChefDeprecations/ProvidesMetadata:
+  Enabled: false
+ChefDeprecations/SuggestsMetadata:
+  Enabled: false
+ChefDeprecations/ReplacesMetadata:
+  Enabled: false
+ChefDeprecations/UsesRunCommandHelper:
+  Enabled: false
+ChefDeprecations/NamePropertyWithDefaultValue:
+  Enabled: false
+ChefDeprecations/PoiseArchiveUsage:
+  Enabled: false
+ChefDeprecations/LongDescriptionMetadata:
+  Enabled: false
+ChefDeprecations/ResourceUsesUpdatedMethod:
+  Enabled: false
+ChefCorrectness/ResourceSetsNameProperty:
+  Enabled: false
+ChefCorrectness/InvalidLicenseString:
+  Enabled: false
+ChefCorrectness/NamePropertyIsRequired:
+  Enabled: false
+ChefCorrectness/IncludingOhaiDefaultRecipe:
+  Enabled: false
+ChefCorrectness/CookbooksDependsOnSelf:
+  Enabled: false
+ChefCorrectness/UnnecessaryNameProperty:
+  Enabled: false
+ChefCorrectness/NodeNormalUnless:
+  Enabled: false
+ChefCorrectness/IncorrectLibraryInjection:
+  Enabled: false
+ChefCorrectness/MetadataMissingName:
+  Enabled: false
+ChefCorrectness/EmptyMetadataField:
+  Enabled: false
+ChefCorrectness/PropertyWithNameAttribute:
+  Enabled: false
+ChefCorrectness/PropertyWithRequiredAndDefault:
+  Enabled: false
+ChefCorrectness/CookbookUsesNodeSave:
+  Enabled: false
+ChefCorrectness/ResourceSetsInternalProperties:
+  Enabled: false
+ChefCorrectness/InsecureCookbookURL:
+  Enabled: false
+ChefCorrectness/InvalidVersionMetadata:
+  Enabled: false
+ChefCorrectness/ResourceWithNoneAction:
+  Enabled: false
+ChefCorrectness/InvalidPlatformMetadata:
+  Enabled: false
+ChefCorrectness/NodeNormal:
+  Enabled: false
+ChefCorrectness/ServiceResource:
+  Enabled: false
+ChefCorrectness/TmpPath:
+  Enabled: false
+ChefCorrectness/DefaultMetadataMaintainer:
+  Enabled: false
+ChefCorrectness/NotifiesActionNotSymbol:
+  Enabled: false
+ChefCorrectness/BlockGuardWithOnlyString:
   Enabled: false

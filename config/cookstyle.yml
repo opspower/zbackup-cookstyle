@@ -823,6 +823,13 @@ ChefModernize/ResourceNameFromInitialize:
     - '**/providers/*.rb'
     - '**/libraries/*.rb'
 
+ChefModernize/Definitions:
+  Description: Legacy Chef Infra definitions should be rewritten as custom resources to take full advantage of the Chef Infra feature set.
+  Enabled: true
+  VersionAdded: '5.11.0'
+  Include:
+    - '**/definitions/*.rb'
+
 ###############################
 # Migrating to new patterns
 ###############################
